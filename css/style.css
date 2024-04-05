@@ -5,12 +5,14 @@
 body{
     color: azure;
     width: 100%;
-    height: 82vh;
+    height: 100vh; /* Alteração da altura para ocupar toda a tela */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: black;
+    margin: 0; /* Removendo a margem padrão */
+    font-family: 'Poppins', cursive;
     /* padding-top: -30; */
 }
 
